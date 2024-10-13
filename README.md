@@ -7,7 +7,7 @@ The primary purpose is to demonstrate how neural networks can be constructed wit
 ## How to Run
 
 ### Prerequisites
-Make sure you have **Python 3.x** and **NumPy** installed on your system.
+Make sure you have **Python** and **NumPy** installed on your system.
 
 ### Steps to Run
 1. Clone the repository to your local machine:
