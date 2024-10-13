@@ -2,7 +2,7 @@
 
 This repository contains implementations of both **one-layer** and **two-layer** neural networks, built from scratch using **NumPy**. 
 These networks are designed for classification and regression tasks and utilize activation functions such as **ReLU** and **Sigmoid**. 
-The primary purpose is to demonstrate how neural networks can be constructed without relying on external deep learning libraries.
+The primary purpose is to demonstrate how neural networks can be constructed without relying on external deep-learning libraries.
 
 ## How to Run
 
@@ -12,7 +12,7 @@ Make sure you have **Python** and **NumPy** installed on your system.
 ### Steps to Run
 1. Clone the repository to your local machine:
    ```bash
-   git clone https://github.com/markshperkin/Backward-Propagation-from-Scratch
+   git clone https://github.com/markshperkin/Backward-Propagation-from-Scratch.git
 .git
    cd your-repo
    ```
