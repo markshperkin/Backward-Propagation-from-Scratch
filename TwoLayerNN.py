@@ -30,16 +30,17 @@ eta = 0.21
 # forward propagation function
 def forward(X, W1, b1, W2, b2):
     Z1 = np.dot(W1, X) + b1  # linear combination for hidden layer
-    A1 = relu(Z1)         # ReLU activation function for hidden layer
+    A1 = relu(Z1) # ReLU activation function for hidden layer
+    # I have chose ReLU for this task because it fits better for a regression task then sigmoid
     Z2 = np.dot(W2, A1) + b2 # linear combination for output layer
-    A2 = Z2                  # Output layer
+    A2 = Z2 # Output layer
     # in the output layer, there is no activation function because its a regression task
     # adding an activation function there would restrict the output (we using ReLU, so anything less than zero becomes zero)
     return A2, A1, Z1
 
 # backward propagation and weight update function
 def backward(X, Y, A2, A1, Z1, W1, W2, b1, b2, eta):
-    m = X.shape[1]  # samples
+    m = X.shape[1] # samples
     
     # output layer gradients
     dZ2 = mse_loss_derivative(A2, Y)
