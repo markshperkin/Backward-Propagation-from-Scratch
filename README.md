@@ -13,8 +13,10 @@ Make sure you have **Python** and **NumPy** installed on your system.
 1. Clone the repository to your local machine:
    ```bash
    git clone https://github.com/markshperkin/Backward-Propagation-from-Scratch.git
-.git
-   cd your-repo
+
+2. Navigate into the project directory
+   ```bash
+   cd Backward-Propagation-from-Scratch
    ```
 2. Run the program
    ```bash
